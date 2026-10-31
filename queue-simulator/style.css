@@ -1,0 +1,80 @@
+
+/* Page background */
+body {
+    background-color: #495579;
+}
+
+/* Queue display container */
+#queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    padding: 10px;
+}
+
+/* Enqueued elements */
+.enqueue-block {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dequeued elements */
+.dequeue-block {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Deleted elements container */
+.dequeued {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Highlight the front element during Peek */
+.peek {
+    background-color: gold;
+    color: black;
+}
+
+/* Operations column background */
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+/* Deleted elements column background */
+.bg-9C254D {
+    background-color: #9C254D;
+}
+
+/* Queue status message */
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Improve button spacing */
+button {
+    margin-bottom: 5px;
+}
+
+/* Queue element text */
+.enqueue-block,
+.dequeue-block {
+    text-align: center;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
